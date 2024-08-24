@@ -1,9 +1,3 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #fff;
-}
-
 ul,
 ol {
   list-style-type: none;
@@ -67,14 +61,6 @@ a:focus {
   line-height: 1.5;
   color: #fff;
   cursor: pointer;
-  display: flex;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
-  border: none;
 }
 .button:hover,
 .button:active {
@@ -83,14 +69,6 @@ a:focus {
   line-height: 1.5;
   color: #fff;
   cursor: pointer;
-  display: flex;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #404bbf;
-  border: none;
 }
 
 /* link header */
@@ -112,14 +90,13 @@ a:focus {
 
 .solution-background {
   background-color: #2e2f42;
-  width: 1440px;
-  height: auto;
+  /* width: 1440px; */
   text-align: center;
 }
 
 .our-team {
   background-color: #f4f4fd;
-  width: 1440px;
+  /* width: 1440px; */
 }
 
 /* footer */
