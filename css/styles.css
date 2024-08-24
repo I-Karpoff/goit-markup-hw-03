@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+h1 {
+  font-size: 56px;
+  line-height: 1.07143;
+  text-align: center;
+  color: #fff;
+}
+h2 {
+  font-size: 36px;
+  color: #2e2f42;
+  line-height: 1.111;
+}
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+a,
+a:link {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16667;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16667;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.button,
+.button:link {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  border: none;
+}
+.button:hover,
+.button:active {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
+  border: none;
+}
+
+/* link header */
+
+.link-contacts {
+  font-size: 16px;
+  color: #434455;
+  text-decoration: none;
+}
+
+.link-contacts:hover,
+.link-contacts:focus {
+  font-size: 16px;
+  color: #404bbf;
+  text-decoration: none;
+}
+
+/* main */
+
+.solution-background {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: auto;
+  text-align: center;
+}
+
+.our-team {
+  background-color: #f4f4fd;
+  width: 1440px;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.text-footer {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f4f4fd;
+}
