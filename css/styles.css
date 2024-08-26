@@ -5,12 +5,10 @@ ol {
 
 a,
 a:link {
-  color: #2e2f42;
   text-decoration: none;
 }
 a:hover,
 a:active {
-  color: #2e2f42;
   text-decoration: underline;
 }
 
@@ -56,7 +54,7 @@ a:active {
   font-style: normal;
 }
 
-.logo {
+a.logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -157,7 +155,6 @@ h3.title-sub {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
-  line-height: 1.111;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -168,13 +165,22 @@ h3.title-sub {
   letter-spacing: 0.02em;
 }
 
-.title-our-team {
-  font-size: 20px;
-  line-height: 1.2;
+h2.title-our-team {
+  font-size: 36px;
   color: #2e2f42;
-  line-height: 1.111;
   font-weight: 500;
   letter-spacing: 0.02em;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3.title-our-team {
+  font-size: 20px;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
 }
 
 .footer {
