@@ -55,6 +55,7 @@ a {
 .logo-part {
   color: #2e2f42;
 }
+
 .logo-footer {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -64,6 +65,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
+
 .logo-footer-part {
   color: #f4f4fd;
 }
@@ -90,7 +92,6 @@ a {
   color: #404bbf;
   text-decoration: none;
 }
-
 .link-contacts:hover,
 .link-contacts:active {
   color: #404bbf;
@@ -109,6 +110,7 @@ a {
 .our-team {
   background-color: #f4f4fd;
 }
+
 .bgbox-our-team {
   background-color: #ffffff;
 }
@@ -145,7 +147,6 @@ a {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .text {
@@ -153,6 +154,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .text-our-team {
   font-size: 16px;
   line-height: 1.5;
