@@ -23,42 +23,21 @@ button {
   cursor: pointer;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
 /* ===== HEADER ====== */
 
 .header-container {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container-div {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
 }
-
-.header-container .logo-box {
-  display: inline-block;
-  margin-left: 156px;
-}
-
-.header-container .menu-box {
-  display: inline-block;
-  margin-left: 76px;
-}
-
-.header-container .contact-box {
-  display: inline-block;
-  margin-left: 332px;
-}
-
-.header-container .menu-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 40px;
-}
-
-.header-container .contacts-ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 40px;
-} /**/
 
 .logo {
   font-family: "Raleway", sans-serif;
