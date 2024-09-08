@@ -31,18 +31,13 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
+  display: flex;
 }
 
 /* ===== HEADER ====== */
 
 .header-container {
   border-bottom: 1px solid #e7e9fc;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.header-container-div {
-  display: flex;
 }
 
 .nav-menu {
@@ -66,15 +61,11 @@ img {
 }
 
 .menu-list {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   gap: 40px;
 }
 
 .menu-contacts {
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: flex;
   gap: 40px;
 }
