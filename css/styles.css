@@ -217,10 +217,16 @@ p {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
-.our-team-li {
+.our-team-flex {
+  display: flex;
+  gap: 24px;
+}
+
+.team-info {
+  padding: 32px 0;
 }
 
 .title-sub-our-team {
@@ -230,6 +236,7 @@ p {
   font-weight: 500;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .our-team .text {
