@@ -13,6 +13,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  /* margin: 0;
+  padding-left: 0; */
 }
 
 a {
@@ -184,6 +186,8 @@ img {
 .benefits-ul {
   display: flex;
   gap: 24px;
+  margin: 0;
+  padding-left: 0;
 }
 
 .benefits-li {
