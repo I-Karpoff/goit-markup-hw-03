@@ -47,6 +47,7 @@ p {
 
 .flex {
   display: flex;
+  align-items: center;
 }
 
 /* ===== HEADER ======= */
@@ -69,6 +70,8 @@ p {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-part {
@@ -78,13 +81,11 @@ p {
 .menu-list {
   display: flex;
   gap: 40px;
-  margin: 24px 332px 24px 0;
 }
 
 .menu-contacts {
   display: flex;
   gap: 40px;
-  margin: 24px 0 24px 0;
 }
 
 .menu {
@@ -94,6 +95,7 @@ p {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .menu:hover,
@@ -106,10 +108,19 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: auto;
 }
 
-.contact-header:hover,
-.contact-header:focus {
+.contact-header-link {
+  color: #434455;
+  margin-left: auto;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.contact-header-link:hover,
+.contact-header-link:focus {
   color: #404bbf;
 }
 
@@ -124,10 +135,6 @@ p {
 .main-section-top {
   color: #ffffff;
   background-color: #2e2f42;
-  font-size: 56px;
-  line-height: 1.07;
-  text-align: center;
-  letter-spacing: 0.02em;
   padding: 188px 0;
 }
 
@@ -137,8 +144,7 @@ p {
   color: #fff;
   line-height: 1.07;
   max-width: 496px;
-  display: inline-block;
-  margin: 0 0 48px 0;
+  margin: 0 auto 48px;
 }
 
 .button {
@@ -274,7 +280,6 @@ p {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .title-sub-portfolio {
